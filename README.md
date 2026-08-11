@@ -1,4 +1,4 @@
-# Anti-Defensive Writing · 学术发布会原则
+# Anti-Defensive Writing · 学术写作原则
 
 **阻止论文的防御性写作 —— 一个给 AI 写作助手用的 Skill + 提示词**
 

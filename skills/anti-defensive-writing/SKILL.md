@@ -9,7 +9,7 @@ description: >
   组织实验、论文AI味、防御性写作、心虚。
 ---
 
-# 学术发布会原则(Paper as Press Release)
+# 学术写作原则(The Press-Release Principle)
 
 ## 一句话原则
 
