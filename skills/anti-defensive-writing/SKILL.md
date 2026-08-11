@@ -1,5 +1,5 @@
 ---
-name: paper-press-release
+name: anti-defensive-writing
 description: >
   论文写作、修改、压缩和实验组织全流程中阻止【防御性写作】。把论文视为一场学术发布会，
   而不是项目总结、实验日志或自我审查报告：识别这项工作最值得发表的价值，围绕它建立

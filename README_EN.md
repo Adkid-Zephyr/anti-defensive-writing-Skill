@@ -1,8 +1,8 @@
-# Paper Press Release
+# Anti-Defensive Writing
 
 **Stop defensive writing in academic papers — a Skill + prompt pack for AI writing assistants.**
 
-[中文 README](README.md) · [English Skill](skills/paper-press-release-en/SKILL.md) · [中文 Skill](skills/paper-press-release/SKILL.md)
+[中文 README](README.md) · [English Skill](skills/anti-defensive-writing-en/SKILL.md) · [中文 Skill](skills/anti-defensive-writing/SKILL.md)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
@@ -43,10 +43,10 @@ Copy the skill folder of your preferred language into your skills directory:
 
 ```bash
 # English
-cp -r skills/paper-press-release-en ~/.claude/skills/
+cp -r skills/anti-defensive-writing-en ~/.claude/skills/
 
 # 中文版
-cp -r skills/paper-press-release ~/.claude/skills/
+cp -r skills/anti-defensive-writing ~/.claude/skills/
 ```
 
 Then just ask "polish this paragraph" or "revise my abstract" — the agent applies the press-release principle automatically.
@@ -58,15 +58,15 @@ Then just ask "polish this paragraph" or "revise my abstract" — the agent appl
 **Experiments**: every experiment needs an argumentative duty
 **Structure**: abstract & intro = press-conference opening · conclusion only reinforces the takeaway
 
-Full rules and decision flow in [SKILL.md](skills/paper-press-release-en/SKILL.md).
+Full rules and decision flow in [SKILL.md](skills/anti-defensive-writing-en/SKILL.md).
 
 ## Repository structure
 
 ```
-paper-press-release/
+anti-defensive-writing/
 ├── skills/
-│   ├── paper-press-release/      # 中文 Skill
-│   └── paper-press-release-en/   # English Skill
+│   ├── anti-defensive-writing/      # 中文 Skill
+│   └── anti-defensive-writing-en/   # English Skill
 ├── prompts/
 │   ├── 精简版提示词.txt           # 中文精简提示词
 │   └── quick-prompt-en.txt       # English quick prompt (copy & paste)

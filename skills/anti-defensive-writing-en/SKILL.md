@@ -1,5 +1,5 @@
 ---
-name: paper-press-release-en
+name: anti-defensive-writing-en
 description: >
   Stops defensive writing across the entire paper lifecycle — writing, revising,
   cutting, and organizing experiments. Treats the paper as a press conference,

@@ -1,8 +1,8 @@
-# Paper Press Release · 学术发布会原则
+# Anti-Defensive Writing · 学术发布会原则
 
 **阻止论文的防御性写作 —— 一个给 AI 写作助手用的 Skill + 提示词**
 
-[English README](README_EN.md) · [中文 Skill](skills/paper-press-release/SKILL.md) · [English Skill](skills/paper-press-release-en/SKILL.md)
+[English README](README_EN.md) · [中文 Skill](skills/anti-defensive-writing/SKILL.md) · [English Skill](skills/anti-defensive-writing-en/SKILL.md)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
@@ -43,10 +43,10 @@
 
 ```bash
 # 中文版
-cp -r skills/paper-press-release ~/.claude/skills/
+cp -r skills/anti-defensive-writing ~/.claude/skills/
 
 # English version
-cp -r skills/paper-press-release-en ~/.claude/skills/
+cp -r skills/anti-defensive-writing-en ~/.claude/skills/
 ```
 
 之后对 AI 说「帮我改改这段论文」「润色一下 abstract」，它会自动按发布会原则工作。
@@ -58,15 +58,15 @@ cp -r skills/paper-press-release-en ~/.claude/skills/
 **实验**：每个实验必须有论证职责
 **结构**：摘要引言=发布会开场 · 结论只强化记忆点
 
-完整规则与决策流程见 [SKILL.md](skills/paper-press-release/SKILL.md)。
+完整规则与决策流程见 [SKILL.md](skills/anti-defensive-writing/SKILL.md)。
 
 ## 仓库结构
 
 ```
-paper-press-release/
+anti-defensive-writing/
 ├── skills/
-│   ├── paper-press-release/      # 中文 Skill
-│   └── paper-press-release-en/   # English Skill
+│   ├── anti-defensive-writing/      # 中文 Skill
+│   └── anti-defensive-writing-en/   # English Skill
 ├── prompts/
 │   ├── 精简版提示词.txt           # 中文精简提示词(复制即用)
 │   └── quick-prompt-en.txt       # English quick prompt
