@@ -1,6 +1,6 @@
 # Anti-Defensive Writing
 
-**Stop defensive writing in academic papers — a Skill + prompt pack for AI writing assistants.**
+**Stop defensive writing in academic papers — a lightweight, zero-dependency Skill + prompt pack for AI writing assistants. Copy and go.**
 
 [中文 README](README.md) · [English Skill](skills/anti-defensive-writing-en/SKILL.md) · [中文 Skill](skills/anti-defensive-writing/SKILL.md)
 

@@ -1,6 +1,6 @@
 # Anti-Defensive Writing · 学术写作原则
 
-**阻止论文的防御性写作 —— 一个给 AI 写作助手用的 Skill + 提示词**
+**阻止论文的防御性写作 —— 一个轻量级、零依赖的 AI 写作助手 Skill + 提示词，复制即用**
 
 [English README](README_EN.md) · [中文 Skill](skills/anti-defensive-writing/SKILL.md) · [English Skill](skills/anti-defensive-writing-en/SKILL.md)
 
