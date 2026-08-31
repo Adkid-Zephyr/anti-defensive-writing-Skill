@@ -5,7 +5,7 @@
 [English README](README_EN.md) · [中文 Skill](skills/anti-defensive-writing/SKILL.md) · [English Skill](skills/anti-defensive-writing-en/SKILL.md)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Adkid-Zephyr/anti-defensive-writing-Skill/pulls)
 
 ---
 
@@ -13,7 +13,7 @@
 
 很多人用 AI 改论文，改完越看越心虚：审稿人还没开口，自己先把「遗憾的是」「效果有限」「仍明显落后」写满了。结构是工作汇报式的，语言是自我审查式的——**等于提前把刀子递到审稿人手里，还附赠一份使用说明。**
 
-这叫**防御性写作（Defensive Writing)**。
+这叫**防御性写作（Defensive Writing）**。
 
 解药只有一条原则：
 
@@ -35,9 +35,9 @@
 
 ### 方式一：复制提示词（任何 AI 都能用）
 
-直接复制 [`prompts/精简版提示词.txt`](prompts/精简版提示词.txt)([English](prompts/quick-prompt-en.txt))，粘贴到你和 AI 的对话开头，然后发给它你的论文段落。400 字，零门槛。
+直接复制 [`prompts/精简版提示词.txt`](prompts/精简版提示词.txt)（[English](prompts/quick-prompt-en.txt)），粘贴到你和 AI 的对话开头，然后发给它你的论文段落。复制即用，零门槛。
 
-### 方式二：安装 Skill(Claude Code / Cursor / 其他 Agent 工具)
+### 方式二：安装 Skill（Claude Code / Cursor / 其他 Agent 工具）
 
 把对应语言的 skill 目录整个拷进你的 skills 目录即可：
 
@@ -53,10 +53,10 @@ cp -r skills/anti-defensive-writing-en ~/.claude/skills/
 
 ## 十二条规则速览
 
-**叙事**：只围绕优势组织 · 不写工作汇报 · 打不过的维度不设为比赛 · 优势必须明说 · 控制比较范围 · 允许彻底重构故事
-**语言**：禁用自我削弱表达 · 不占优的结果不说输
-**实验**：每个实验必须有论证职责
-**结构**：摘要引言=发布会开场 · 结论只强化记忆点
+- **叙事**：只围绕优势组织 · 不写工作汇报 · 打不过的维度不设为比赛 · 优势必须明说 · 控制比较范围 · 允许彻底重构故事
+- **语言**：禁用自我削弱表达 · 不占优的结果不说输 · 不把局部现象上升为对整体方法的否定
+- **实验**：每个实验必须有论证职责
+- **结构**：摘要引言 = 发布会开场 · 结论只强化记忆点
 
 完整规则与决策流程见 [SKILL.md](skills/anti-defensive-writing/SKILL.md)。
 
