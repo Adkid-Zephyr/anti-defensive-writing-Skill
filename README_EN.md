@@ -5,7 +5,7 @@
 [中文 README](README.md) · [English Skill](skills/anti-defensive-writing-en/SKILL.md) · [中文 Skill](skills/anti-defensive-writing/SKILL.md)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Adkid-Zephyr/anti-defensive-writing-Skill/pulls)
 
 ---
 
@@ -53,10 +53,10 @@ Then just ask "polish this paragraph" or "revise my abstract" — the agent appl
 
 ## The 12 rules at a glance
 
-**Narrative**: organize around strengths only · no work-report chronology · never set a contest you can't win · state advantages explicitly · limit comparison scope · allow full story restructuring
-**Language**: ban self-weakening phrases · never say you lost
-**Experiments**: every experiment needs an argumentative duty
-**Structure**: abstract & intro = press-conference opening · conclusion only reinforces the takeaway
+- **Narrative**: organize around strengths only · no work-report chronology · never set a contest you can't win · state advantages explicitly · limit comparison scope · allow full story restructuring
+- **Language**: ban self-weakening phrases · never say you lost · never turn a local observation into a verdict on the whole method
+- **Experiments**: every experiment needs an argumentative duty
+- **Structure**: abstract & intro = press-conference opening · conclusion only reinforces the takeaway
 
 Full rules and decision flow in [SKILL.md](skills/anti-defensive-writing-en/SKILL.md).
 
