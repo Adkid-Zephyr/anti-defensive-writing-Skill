@@ -26,7 +26,7 @@ Never set a contest you cannot win. Never say you lost. Experiments are tools of
 
 | | Defensive writing | Press-release principle |
 |---|---|---|
-| Weakness framing | Unfortunately, our method only achieves limited gains on small datasets | Our method performs best in data-scarce settings, at 1/5 the training cost of the baseline |
+| Weakness framing | Although our method improves accuracy on two in-domain datasets, we must acknowledge that cross-domain generalization has not been tested, so these results should be interpreted cautiously. | Our method improves accuracy on two in-domain datasets; cross-domain generalization has not been evaluated. |
 | Structure | We first tried A, then B, and finally chose C | Problem X matters, existing methods lack Y, we propose Z, evidence follows |
 | Experiments | An appendix-style pile of results | Every experiment carries one argumentative duty |
 | Conclusion | Sudden self-negation in the final paragraph | Reinforces the takeaway only |
