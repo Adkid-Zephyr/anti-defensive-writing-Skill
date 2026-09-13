@@ -52,8 +52,16 @@ narrative around it.
 
 ## 2. Language rules (against self-undermining)
 
-- Banned self-weakening phrases: "unfortunately", "merely", "only achieves",
-  "still lags far behind", "limited improvement", "severely insufficient".
+- Treat self-weakening phrases contextually, not as a mechanical blacklist. Avoid
+  "unfortunately", "still lags far behind", "limited improvement", and
+  "severely insufficient"; preserve "only" when it expresses an advantage (for
+  example, "requires only 5% labeled data") or a necessary scope condition (for
+  example, "applies only to convex objectives").
+- **Preserve evidence before reframing it.** Do not alter or omit facts, numbers,
+  statistical uncertainty, scope conditions, or necessary comparisons. Retain
+  unfavorable evidence that materially affects the core conclusion and limitations
+  required by the target venue. You may change framing, placement, and claim scope;
+  never turn "changing the game" into concealing evidence.
 - **Never say you lost.** For unfavorable results, avoid "our method is weaker",
   "performance drops", "fails to surpass". Judge in order:
   ① must this result be discussed at all; ② can it be explained by different
@@ -61,8 +69,10 @@ narrative around it.
   trade-off; ④ can the claim be narrowed to avoid a head-on collision;
   ⑤ should the storyline change so this result no longer carries the core
   contribution.
-- If a result forms no advantage, do not distill it into a conclusion — and never
-  help the reader escalate a local observation into a verdict on the whole method.
+- If a result forms no advantage, do not proactively distill it into a paper-level
+  conclusion or escalate a local observation into a verdict on the whole method.
+  If it limits the claim or affects the core conclusion, state it accurately and
+  narrow the claim accordingly.
 
 ## 3. Experiment rules
 
@@ -97,7 +107,8 @@ or expanded limitations in the final paragraph.
 4. Explain the result as a difference in goals or a reasonable trade-off;
 5. Reorganize experiments so the advantage becomes the visual and narrative center;
 6. Redefine the paper's story;
-7. Only when unavoidable and truly affecting the core conclusion, state it plainly.
+7. When evidence affects claim validity or the target venue requires disclosure,
+   state it accurately and narrow the claim accordingly.
 
 ## 6. Pre-submission checklist (never hand the reviewer a knife)
 
