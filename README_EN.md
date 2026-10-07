@@ -31,9 +31,9 @@ This is **defensive writing**.
 The antidote is one principle:
 
 > **A paper is a press conference, not a project summary.**
-> A press conference says exactly one thing: your strongest advantage.
+> Build the main line around genuine strengths while retaining information needed to understand and test claims.
 
-Never set a contest you cannot win. Never say you lost. Experiments are tools of argument, not a warehouse of results. Persuasion comes from tight claim-evidence alignment, not from the number of comparisons.
+Identify self-undermining by meaning, not word matching: the examples above are not banned strings, and necessary negative experimental facts must remain. Comparison frames and trade-offs need evidence; do not present unevaluated matters as established, and narrow claims when evidence is insufficient. Experiments are tools of argument, not a warehouse of results. Persuasion comes from tight claim-evidence alignment, not from the number of comparisons.
 
 ## Before / After
 
@@ -41,14 +41,14 @@ Never set a contest you cannot win. Never say you lost. Experiments are tools of
 |---|---|---|
 | Weakness framing | Although our method improves accuracy on two in-domain datasets, we must acknowledge that cross-domain generalization has not been tested, so these results should be interpreted cautiously. | Our method improves accuracy on two in-domain datasets; cross-domain generalization has not been evaluated. |
 | Structure | We first tried A, then B, and finally chose C | Problem X matters, existing methods lack Y, we propose Z, evidence follows |
-| Experiments | An appendix-style pile of results | Every experiment carries one argumentative duty |
+| Experiments | An appendix-style pile of results | Every experiment carries at least one duty, including defining boundaries or presenting key counterevidence |
 | Conclusion | Sudden self-negation in the final paragraph | Reinforces the takeaway only |
 
 ## Quick start
 
 ### Option 1: Copy the prompt (works with any AI)
 
-Copy [`prompts/quick-prompt-en.txt`](prompts/quick-prompt-en.txt) ([中文](prompts/精简版提示词.txt)) and paste it at the start of your AI conversation, then send your paper draft. ~400 words, zero setup.
+Copy [`prompts/quick-prompt-en.txt`](prompts/quick-prompt-en.txt) ([中文](prompts/精简版提示词.txt)) and paste it at the start of your AI conversation, then send your paper draft. Copy and use, zero setup.
 
 ### Option 2: Install the Skill (Claude Code / Cursor / other agent tools)
 
@@ -64,12 +64,14 @@ cp -r skills/anti-defensive-writing ~/.claude/skills/
 
 Then just ask "polish this paragraph" or "revise my abstract" — the agent applies the press-release principle automatically.
 
-## The 12 rules at a glance
+## Rules at a glance
 
-- **Narrative**: organize around strengths only · no work-report chronology · never set a contest you can't win · state advantages explicitly · limit comparison scope · allow full story restructuring
-- **Language**: ban self-weakening phrases · never say you lost · never turn a local observation into a verdict on the whole method
-- **Experiments**: every experiment needs an argumentative duty
-- **Structure**: abstract & intro = press-conference opening · conclusion only reinforces the takeaway
+- **Narrative**: organize around genuine strengths · use an argument chain, not work-report chronology · support comparison frames with evidence · state advantages explicitly · limit comparison scope
+- **Language**: identify self-undermining by meaning · retain necessary facts · never turn a local observation into a verdict on the whole method
+- **Experiments**: at least one argumentative duty per experiment, including applicable boundaries and key counterevidence; unfavorable results alone do not justify removal
+- **Disclosure**: necessary facts, boundaries, key counterevidence, and explicit response obligations always remain; moving material preserves visibility and connection to claims
+- **Structure**: establish the problem and contribution first in abstracts and introductions, with qualifiers alongside affected claims · reinforce the conclusion takeaway without expanding self-negation
+- **Scope**: local revision preserves wording habits and paragraph structure, never rewrites whole paragraphs, and leaves problem-free parts untouched; no whole-paper reordering without authorization, only restructuring recommendations beyond scope. Each experiment within the requested scope has an explicit duty; structural checks cover only paper parts within the requested scope, including any abstract, introduction, or conclusion the request includes, under applicable rules; flag unresolved issues
 
 Full rules and decision flow in [SKILL.md](skills/anti-defensive-writing-en/SKILL.md).
 
@@ -91,7 +93,9 @@ anti-defensive-writing/
 - Writing / revising abstracts, introductions, conclusions
 - Cutting paper length (the decision rules tell you what to cut first)
 - Organizing the experiments section
-- Pre-rebuttal self-check (the "don't hand the reviewer a knife" checklist)
+- Defensive-writing self-checks in rebuttals or reviewer responses; answer existing questions directly with evidence
+
+This tool is neither a general-purpose guide to removing AI-sounding prose nor a complete rebuttal method.
 
 ## License
 
