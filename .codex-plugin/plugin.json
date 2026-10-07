@@ -1,0 +1,52 @@
+{
+  "name": "anti-defensive-writing",
+  "version": "1.0.0",
+  "description": "Chinese and English academic-writing skills based on the Press-Release Principle.",
+  "author": {
+    "name": "Adkid-Zephyr",
+    "url": "https://github.com/Adkid-Zephyr"
+  },
+  "homepage": "https://github.com/Adkid-Zephyr/anti-defensive-writing-Skill",
+  "repository": "https://github.com/Adkid-Zephyr/anti-defensive-writing-Skill",
+  "license": "MIT",
+  "keywords": [
+    "academic-writing",
+    "paper-writing",
+    "anti-defensive-writing",
+    "chinese",
+    "english"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Anti-Defensive Writing",
+    "shortDescription": "Academic writing, claim first",
+    "longDescription": "Organize academic papers around their strongest supported contribution. Revise abstracts, introductions, conclusions and rebuttals, reduce unnecessary defensive language, and give each experiment an argumentative role. Includes Chinese and English skills based on the Press-Release Principle. Users supply the text and evidence; the plugin does not run experiments or validate scientific claims. It contains instructions only, with no MCP server, login, telemetry or external data transfer implemented by the publisher.",
+    "developerName": "Adkid-Zephyr",
+    "category": "Productivity",
+    "capabilities": [
+      "Academic writing",
+      "Paper restructuring",
+      "Chinese and English editing"
+    ],
+    "websiteURL": "https://github.com/Adkid-Zephyr/anti-defensive-writing-Skill",
+    "supportURL": "https://github.com/Adkid-Zephyr/anti-defensive-writing-Skill/issues",
+    "privacyPolicyURL": "https://github.com/Adkid-Zephyr/anti-defensive-writing-Skill/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/Adkid-Zephyr/anti-defensive-writing-Skill/blob/main/LICENSE",
+    "defaultPrompt": [
+      "帮我重写这段摘要，围绕最强的证据组织贡献，保留准确的数字与研究范围。",
+      "Revise this introduction around its strongest supported contribution. Preserve facts and essential qualifications.",
+      "帮我检查这段 rebuttal，直接回答审稿人的问题，并指出哪些表述缺少证据。"
+    ],
+    "brandColor": "#234B8C",
+    "brandColorDark": "#A8C7FA",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/icon.svg"
+  },
+  "extensions": {
+    "com.openai": {
+      "publication": {
+        "release_notes": "Initial Codex plugin packaging of the existing Chinese and English Anti-Defensive Writing skills."
+      }
+    }
+  }
+}

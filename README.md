@@ -9,6 +9,23 @@
 
 ---
 
+### Codex 插件安装
+
+作者：**Adkid-Zephyr**。本仓库同时提供中文和英文 Skill。Codex 可以安装 Skill，也可以安装打包后的插件；仓库安装不等于官方插件目录已上架。
+
+安装本仓库插件：
+
+```bash
+codex plugin marketplace add Adkid-Zephyr/anti-defensive-writing-Skill
+codex plugin add anti-defensive-writing@adkid-zephyr-writing
+```
+
+安装后在新对话中选择 Anti-Defensive Writing 插件，并使用中文或英文 Skill 修改论文。
+
+也可以把 [中文 Skill 链接](skills/anti-defensive-writing/SKILL.md) 交给 Codex，要求它安装这个 Skill。
+
+插件发布包包含相同的两份 Skill，没有 MCP 服务或额外运行依赖。通过 `python3 scripts/build_plugin.py` 生成可上传到 OpenAI 发布后台的 ZIP；[隐私政策](PRIVACY.md)。官方目录发布状态以 OpenAI 后台为准，GitHub release 不是官方目录上架记录。
+
 ## 这是什么
 
 很多人用 AI 改论文，改完越看越心虚：审稿人还没开口，自己先把「遗憾的是」「效果有限」「仍明显落后」写满了。结构是工作汇报式的，语言是自我审查式的——**等于提前把刀子递到审稿人手里，还附赠一份使用说明。**

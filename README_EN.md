@@ -9,6 +9,19 @@
 
 ---
 
+### Install as a Codex plugin
+
+Publisher: **Adkid-Zephyr**. This repository includes Chinese and English skills. A repository-installed plugin is separate from a published listing in the official plugin directory.
+
+```bash
+codex plugin marketplace add Adkid-Zephyr/anti-defensive-writing-Skill
+codex plugin add anti-defensive-writing@adkid-zephyr-writing
+```
+
+After installation, start a new conversation, select Anti-Defensive Writing, and use its Chinese or English skill to revise your paper. You can also give Codex the [Chinese skill URL](skills/anti-defensive-writing/SKILL.md) or [English skill URL](skills/anti-defensive-writing-en/SKILL.md) and ask it to install the skill.
+
+The plugin bundles the same two skills and has no MCP server or extra runtime dependencies. Run `python3 scripts/build_plugin.py` to build the ZIP for OpenAI submission. See the [privacy policy](PRIVACY.md). Official directory publication is determined by the OpenAI dashboard; a GitHub release is not an official directory listing.
+
 ## What is this
 
 Many people use AI to polish their papers and end up with something that reads like a self-audit: before the reviewer says a word, the text is already full of "unfortunately", "limited improvement", and "still lags behind". Work-report structure, self-censoring language — **it hands the reviewer a knife, with a user manual attached.**
