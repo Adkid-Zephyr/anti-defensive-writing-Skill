@@ -11,7 +11,7 @@
 
 ### Codex 插件安装
 
-作者：**Adkid-Zephyr**。本仓库同时提供中文和英文 Skill。Codex 可以安装 Skill，也可以安装打包后的插件；仓库安装不等于官方插件目录已上架。
+作者：**Adkid-Zephyr**。本仓库同时提供中文和英文 Skill。Codex 可以安装 Skill，也可以安装打包后的插件。
 
 安装本仓库插件：
 
