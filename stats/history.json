@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "repository": "Adkid-Zephyr/anti-defensive-writing-Skill",
+  "clone_days": {
+    "2026-10-14": {
+      "count": 528,
+      "uniques": 320,
+      "last_observed_at": "2026-10-27T13:00:31.312562+00:00"
+    },
+    "2026-10-15": {
+      "count": 487,
+      "uniques": 324,
+      "last_observed_at": "2026-10-27T13:00:31.312562+00:00"
+    },
+    "2026-10-16": {
+      "count": 487,
+      "uniques": 291,
+      "last_observed_at": "2026-10-27T13:00:31.312562+00:00"
+    },
+    "2026-10-17": {
+      "count": 389,
+      "uniques": 252,
+      "last_observed_at": "2026-10-27T13:00:31.312562+00:00"
+    },
+    "2026-10-18": {
+      "count": 397,
+      "uniques": 255,
+      "last_observed_at": "2026-10-27T13:00:31.312562+00:00"
+    },
+    "2026-10-19": {
+      "count": 690,
+      "uniques": 404,
+      "last_observed_at": "2026-10-27T13:00:31.312562+00:00"
+    },
+    "2026-10-20": {
+      "count": 594,
+      "uniques": 385,
+      "last_observed_at": "2026-10-27T13:00:31.312562+00:00"
+    },
+    "2026-10-21": {
+      "count": 695,
+      "uniques": 455,
+      "last_observed_at": "2026-10-27T13:00:31.312562+00:00"
+    },
+    "2026-10-22": {
+      "count": 625,
+      "uniques": 374,
+      "last_observed_at": "2026-10-27T13:00:31.312562+00:00"
+    },
+    "2026-10-23": {
+      "count": 513,
+      "uniques": 338,
+      "last_observed_at": "2026-10-27T13:00:31.312562+00:00"
+    },
+    "2026-10-24": {
+      "count": 468,
+      "uniques": 307,
+      "last_observed_at": "2026-10-27T13:00:31.312562+00:00"
+    },
+    "2026-10-25": {
+      "count": 555,
+      "uniques": 314,
+      "last_observed_at": "2026-10-27T13:00:31.312562+00:00"
+    },
+    "2026-10-26": {
+      "count": 830,
+      "uniques": 428,
+      "last_observed_at": "2026-10-27T13:00:31.312562+00:00"
+    }
+  },
+  "assets": {
+    "617026437": {
+      "name": "anti-defensive-writing-1.0.0.zip",
+      "tag": "plugin-v1.0.0",
+      "count": 290,
+      "url": "https://github.com/Adkid-Zephyr/anti-defensive-writing-Skill/releases/download/plugin-v1.0.0/anti-defensive-writing-1.0.0.zip",
+      "last_observed_at": "2026-10-27T13:00:31.312562+00:00",
+      "present_in_latest_release_scan": true,
+      "is_distribution": true
+    },
+    "617026439": {
+      "name": "SHA256SUMS",
+      "tag": "plugin-v1.0.0",
+      "count": 11,
+      "url": "https://github.com/Adkid-Zephyr/anti-defensive-writing-Skill/releases/download/plugin-v1.0.0/SHA256SUMS",
+      "last_observed_at": "2026-10-27T13:00:31.312562+00:00",
+      "present_in_latest_release_scan": true,
+      "is_distribution": false
+    }
+  },
+  "updated_at": "2026-10-27T13:00:31.312562+00:00",
+  "latest_clone_window": {
+    "count": 7911,
+    "uniques": 4062,
+    "clones": [
+      {
+        "timestamp": "2026-10-13T00:00:00Z",
+        "count": 653,
+        "uniques": 418
+      },
+      {
+        "timestamp": "2026-10-14T00:00:00Z",
+        "count": 528,
+        "uniques": 320
+      },
+      {
+        "timestamp": "2026-10-15T00:00:00Z",
+        "count": 487,
+        "uniques": 324
+      },
+      {
+        "timestamp": "2026-10-16T00:00:00Z",
+        "count": 487,
+        "uniques": 291
+      },
+      {
+        "timestamp": "2026-10-17T00:00:00Z",
+        "count": 389,
+        "uniques": 252
+      },
+      {
+        "timestamp": "2026-10-18T00:00:00Z",
+        "count": 397,
+        "uniques": 255
+      },
+      {
+        "timestamp": "2026-10-19T00:00:00Z",
+        "count": 690,
+        "uniques": 404
+      },
+      {
+        "timestamp": "2026-10-20T00:00:00Z",
+        "count": 594,
+        "uniques": 385
+      },
+      {
+        "timestamp": "2026-10-21T00:00:00Z",
+        "count": 695,
+        "uniques": 455
+      },
+      {
+        "timestamp": "2026-10-22T00:00:00Z",
+        "count": 625,
+        "uniques": 374
+      },
+      {
+        "timestamp": "2026-10-23T00:00:00Z",
+        "count": 513,
+        "uniques": 338
+      },
+      {
+        "timestamp": "2026-10-24T00:00:00Z",
+        "count": 468,
+        "uniques": 307
+      },
+      {
+        "timestamp": "2026-10-25T00:00:00Z",
+        "count": 555,
+        "uniques": 314
+      },
+      {
+        "timestamp": "2026-10-26T00:00:00Z",
+        "count": 830,
+        "uniques": 428
+      }
+    ]
+  }
+}

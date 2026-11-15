@@ -7,6 +7,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Adkid-Zephyr/anti-defensive-writing-Skill/pulls)
 
+[Download and clone statistics](stats/README.md) · [Collection setup and methodology](docs/statistics.md). GitHub aggregates only, with no skill usage telemetry. Archived clone counts cover recorded dates only.
+
 ---
 
 ### Install as a Codex plugin
