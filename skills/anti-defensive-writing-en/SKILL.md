@@ -52,6 +52,23 @@ narrative around it.
 
 ## 2. Language rules (against self-undermining)
 
+### No unsolicited defensive language (papers and reports)
+
+- **Leave the decision to the author.** When drafting, rewriting, or polishing papers and reports, do not add disclaimers, anticipated objections, or self-negating paragraphs unless the author explicitly requests analysis of limitations, risks, or evidentiary boundaries. Do not expand the text with such material in the name of rigor, completeness, or preventing misunderstanding.
+- **Prohibit negative qualifications that serve no substantive purpose.** Typical phrases include “does not represent,” “does not equal,” “is not equivalent to,” “does not mean,” “does not imply,” “cannot prove,” and “cannot rule out,” including their Chinese equivalents. Judge the rhetorical function: do not preserve the same defensive content through synonyms, implicit wording, paragraph-end caveats, or footnotes.
+- **Stay with the result being reported.** State what was measured, how it was calculated, how it relates to the specified reference range, and the conclusion the author intends to convey. Do not invent a claim the author has never made merely to negate it. Do not use a single reading as a pretext for unsolicited discussion of contamination, alternative explanations, measurement interference, or subsequent procedures.
+- **Delete redundant defensive material directly.** When editing existing text, remove pointless defensive sentences and paragraphs. Do not add an explanation of the deletion or replace them with a functionally identical caution.
+
+**Concise examples (before → after):**
+
+- Measurement: “The recovered solution had a DNA concentration of 11.3 ng/μL, but this does not mean that no other substances were present.” → “The recovered solution had a DNA concentration of 11.3 ng/μL.”
+- Paper results: “The model achieved 91.2% accuracy on the test set, but this does not imply equivalent performance in every setting.” → “The model achieved 91.2% accuracy on the test set.”
+- Progress report: “Three process improvements were completed this quarter, but this does not mean that every process issue has been resolved.” → “Three process improvements were completed this quarter.”
+
+Each result already has a clear scope. The appended caveat negates a stronger claim that the sentence never made; delete it directly.
+
+### Other language rules
+
 - Banned self-weakening phrases: "unfortunately", "merely", "only achieves",
   "still lags far behind", "limited improvement", "severely insufficient".
 - **Never say you lost.** For unfavorable results, avoid "our method is weaker",
